@@ -1,0 +1,110 @@
+.fadeIn {
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+    animation-delay: 0.5s;
+    animation-direction:normal;
+    }
+    
+  
+    @keyframes fadeInAnime{
+      0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+    }
+
+    header {
+        padding: 30px 4% 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+     }
+
+     h1 {
+        margin: 0; padding: 0;
+        font-size: 20px;
+     }
+
+     a {	
+        text-decoration: none;
+        color: rgb(235, 222, 73);
+     }
+     .menu{
+        list-style: none;
+        display: flex;
+     }
+     li {
+    
+        font-size: 14px;
+        color: #000000;
+     }
+
+     nav {
+        margin: 0 0 0 auto;
+     }
+    
+     header {
+        background-color: rgb(220, 220, 220);
+        
+     }
+     .mark-list a{
+        font-size: 120px;
+      
+     }
+/* ここまで一緒 */
+
+
+    body {
+        background-image: url("img/babyFTHG7718.jpg"); 
+        background-size: 100% 100%;
+        background-color: rgba(255,255,255,0.5);
+        background-blend-mode: lighten;
+    }
+
+    div{
+     
+        margin: 35px;
+    }
+    
+    .zyusyo div{
+        display: flex;
+    }
+
+   .mark-list h1{
+       font-size: 30px;
+       color: #7d7979;
+    }
+    .mark-list p{
+        font-size: 20px;
+    }
+    .mark-list li{
+       list-style:"🍼";
+      
+        width: 100%;
+
+    }
+
+
+    img{
+     
+        width: 40%;
+        height: 40%;
+    
+    }
+
+.hp a{
+    font-size: 20px;
+    color: blue;
+   
+}
+.mark-list li{
+    margin: 30px 0;
+    font-size: 22px;
+}
+

@@ -1,0 +1,48 @@
+main{
+  
+    padding: 0.5rem;
+    width: 70%;
+    text-align: center;
+    margin: 20px;
+}
+#menubar li a {  
+    padding: 5rem 1.25rem;
+  
+}
+#logo {
+    margin-bottom: 0px; 
+}
+p{
+    line-height: 10%;
+    color: rgb(117, 119, 121);
+    line-height: 2rem;
+}
+ul{
+    line-height: 10rem;
+    
+}
+header ul li{
+    width: 100%;
+    text-align: center;
+    margin: 0.1rem;
+}
+header{
+    width: 100%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header ul li a{
+    margin: 3.5rem;
+    padding: 3rem;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+body{
+    background-image: url(img/PAK85_hikaridesu15234551_TP_V.webp);
+}
+
