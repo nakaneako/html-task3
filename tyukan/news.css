@@ -1,0 +1,71 @@
+.fadeIn {
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+    animation-delay: 0.5s;
+    animation-direction:normal;
+    }
+    
+  
+    @keyframes fadeInAnime{
+      0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+    }
+
+    header {
+        padding: 30px 4% 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+     }
+
+     h1 {
+        margin: 0; padding: 0;
+        font-size: 20px;
+     }
+
+     a {	
+        text-decoration: none;
+        color: #483cec;
+     }
+     .menu{
+        list-style: none;
+        display: flex;
+     }
+     li {
+    
+        font-size: 14px;
+        color: #000000;
+     }
+
+     nav {
+        margin: 0 0 0 auto;
+     }
+    
+     header {
+        background-color: rgb(220, 220, 220);
+        
+     }
+     .mark-list a{
+        font-size: 120px;
+      
+     }
+    .img  {
+        display: flex;
+      }
+
+    p{
+        font-size: 18px;
+    }
+
+.mark-list h2{
+    margin: 25px 0;
+    font-size: 30px;
+}

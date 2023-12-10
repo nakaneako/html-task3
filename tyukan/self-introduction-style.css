@@ -1,0 +1,85 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+
+ header {
+    padding: 30px 4% 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+ }
+ h1 {
+    margin: 0; padding: 0;
+    font-size: 20px;
+ }
+ a {	
+    text-decoration: none;
+    color: #ef3131;
+ }
+ .menu{
+    list-style: none;
+    display: flex;
+ }
+ li {
+
+    font-size: 14px;
+    color: #000000;
+ }
+ nav {
+    margin: 0 0 0 auto;
+ }
+
+header {
+   background-color: rgb(220, 220, 220);
+   
+}
+.mark-list a{
+   font-size: 120px;
+ 
+}
+
+.mark-list li{
+   font-weight: bold;
+   font-size: 22px;
+   color: rgb(255, 143, 92);
+}
+
+.mark-list{
+   font-size: 20px;
+   
+}
+
+.mark-list div{
+   border: 1px ;
+   margin-top: 45px;
+}
+
+.fadeIn {
+   animation-name: fadeInAnime;
+   animation-fill-mode:backwards;
+   animation-duration:3s;
+   animation-iteration-count:infinite;
+   animation-timing-function:ease;
+   animation-delay: 0.5s;
+   animation-direction:normal;
+   }
+   
+ 
+   @keyframes fadeInAnime{
+     0% {
+       opacity: 0;
+     }
+   
+     100% {
+       opacity: 1;
+     }
+   }
+
+img{
+   height: 250px;
+   width: 400px;
+} 
