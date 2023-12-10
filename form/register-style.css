@@ -1,0 +1,56 @@
+/* 必須 */
+b {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 1px 3px;
+    font-size: 10px;
+}
+
+table, th, td{
+    border: solid 2px black;
+    border-collapse: collapse;
+   margin: 10px 5px;
+   font-family: UD デジタル 教科書体 NK-R,HGSｺﾞｼｯｸE;
+}
+
+button[type="submit"] {
+    background-color: rgb(95, 61, 15);
+    color: aliceblue;
+    
+}
+p{
+    font-family: UD デジタル 教科書体 NK-R,HGSｺﾞｼｯｸE;
+    font-size: 25px;
+    color: rgba(99, 64, 64, 0.995);
+}
+
+table {
+  
+    border-spacing: 10px; /* セル間の隙間の大きさを調整 */
+}
+
+td, th {
+    padding: 10px; /* セル内のコンテンツとセルの境界との間に隙間を開ける */
+}
+
+button {
+    width: 150px; /* 横幅を調整 */
+    height: 25px; /* 縦幅を調整 */
+    font-size: 11px; 
+    font-family: UD デジタル 教科書体 NK-R, HGSｺﾞｼｯｸE;
+}
+body{
+    background-color: rgb(193, 191, 185);
+}
+td{
+    background-color: rgb(164, 202, 162);
+    color: rgb(6, 6, 6);
+}
+th{
+    background-color: rgb(34, 68, 14);
+    color: aliceblue;
+    font-size: 15px;
+    font-size: 15px;
+    font-family: UD デジタル 教科書体 NK-R;
+}

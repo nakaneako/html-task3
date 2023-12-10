@@ -1,0 +1,11 @@
+p,fieldset{
+    font-size: 0.7rem;
+}
+input[type] {
+    margin-bottom: 10px; /
+}
+fieldset {
+    margin: 10px; 
+    padding: 10px; 
+    
+}
