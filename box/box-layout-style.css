@@ -1,0 +1,67 @@
+/* ページ全体の背景スタイル */
+body {
+    background-image: url("img/対人関係に劇的に効果あり！太陽のイメージング｜マグトロ@引き寄せの法則はシンプルに【マイルール】＆【着地】.jpg");
+}
+
+/* タイトルのスタイル */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #faefec;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* コンテンツボックス */
+.box {
+   justify-content: space-evenly;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   display: flex;
+}
+
+
+/* アイテムの見出しスタイル */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* 画像のスタイル */
+.fot img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+ 
+}
+
+/* リンクのスタイル */
+a {
+    display: block; 
+    width: 100%; 
+    text-align: center; 
+    padding: 5px 0; 
+    color: rgb(247, 243, 235);
+    text-decoration: none;
+    border-radius: 5px; 
+    background-color: #555;
+}
+
+/* テキストのスタイル */
+p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 20px;
+    width: 90%;
+}
+.box-item{
+    width: 25%;
+    padding: 15px;
+    margin: 5px;
+    background-color: #fc99e5;
+    text-align: center; 
+ 
+}

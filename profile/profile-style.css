@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#bg-yellow {
+    background-color: yellow;
+}
+.text-brown{
+    color: rgb(241, 67, 122);
+}
+img{
+    width: 14rem;
+}

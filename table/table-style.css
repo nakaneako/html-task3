@@ -1,0 +1,42 @@
+/* タイトルの色、大きさ */
+h1{
+    font-size: 25px;
+    font-family: "HG明朝E", "HGP明朝E", serif;
+    color: rgb(98, 57, 80);
+}
+/* 表の線 */
+table, th, td{
+    border: solid 5px black;
+    border-collapse: collapse;
+}
+th{
+    font-family:"HG明朝E", "HGP明朝E", serif;
+    color: rgb(246, 6, 174);
+}
+td{
+    font-family: "UD デジタル 教科書体 N-B", "游ゴシック Medium", serif;
+
+}
+th, td{
+    padding: 33px;
+}
+ul{
+    margin: 50px;
+}
+/* 背景 */
+body{
+    background-image: url(e112ce12541bb2922e64cac878a3dbfb.jpg);
+}
+/* 画像の大きさ */
+img{
+    width: 16rem;
+}
+table td{
+    padding: 4px 5px;
+  }
+li, td{
+    font-size: 20px;
+}
+th{
+    font-size: 20px;
+}
