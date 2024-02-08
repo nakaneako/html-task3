@@ -1,0 +1,60 @@
+
+body{
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.box-item{
+    text-align: center; 
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.pr{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+}
+
+a{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+h1{
+    color: white;
+    font-size: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.top a {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+    background-color: #ee0202;
+    display: block;
+    text-align: center;
+    border-radius: 24px;
+  }
+  
+.top a::before {
+    content: '\f062';
+    font-family: 'Font Awesome 6 Free';
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 48px;
+  }

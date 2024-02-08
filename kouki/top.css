@@ -1,0 +1,39 @@
+.full2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 全画面表示 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('img/Maneskin-pink-5.webp');
+}
+
+.full2 h1 {
+    text-align: center;
+    color: white;
+    font-size: 13rem;
+    font-family: 'Book Antiqua';
+    margin-top: 7rem; /* 調整したい余白の量に合わせて変更 */
+}
+
+.fadeIn {
+    animation-name: fadeInAnime;
+    animation-fill-mode: backwards;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+}
+
+@keyframes fadeInAnime {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
